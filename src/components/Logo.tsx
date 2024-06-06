@@ -11,6 +11,6 @@ export const Logo: FunctionComponent<LogoProps> = ({ sidebar = false }) => {
     const imgUrl = Env[`LOGO${sidebar ? "_SIDEBAR_" : "_"}${themeVariant === ThemeVariants.DARK ? "DARK" : "LIGHT"}`];
 
     return (
-        <img src="https://gr.ivao.aero/wp-content/uploads/2022/12/symbol.png" className={`w-54 h-56 ${sidebar ? "" : "-ml-5"}`} alt="Logo IVAO Brasil" />
+        <img src="https://gr.ivao.aero/wp-content/uploads/2022/12/symbol.png" className={`w-54 h-54 ${sidebar ? "" : "-ml-5"}`} alt="Logo IVAO Brasil" />
     );
 }
