@@ -45,7 +45,7 @@ const formatDate = (date: Date) => {
     "JUL",
     "AUG",
     "SEP",
-    "OUT",
+    "ΟCT",
     "NOV",
     "DEC",
   ];
