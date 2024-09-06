@@ -151,10 +151,10 @@ const BoardingPassLeftSide: FunctionComponent<BoardingPassProps> = ({
           </div>
           <div className={bodyStyle.qrCodeInfo}>
             <div className={bodyStyle.infoText}>
+              Be connected 10 minutes on the network before departure time, and ready for push back at least 5 minutes before.
+              
               To participate in the event you must be aware of and willing to
               comply with all guidelines available in the pilot briefing.
-
-              BE CONNECTED 10 minutes on the network before departure time, and ready for push back at least 5 minutes before
             </div>
 
             <QrCode value="https://gr.ivao.aero" size={76} renderAs="svg" />
