@@ -71,7 +71,7 @@ const BoardingPassHeader: FunctionComponent<BoardingPassProps> = ({
       className={headerStyle.header}
     >
       <div>
-        <span>Κάρτα Επιβίβασης</span>
+        <span>καρτα επιβιβασης</span>
         <span>Boarding Pass</span>
       </div>
       <div>
@@ -96,7 +96,7 @@ const BoardingPassLeftSide: FunctionComponent<BoardingPassProps> = ({
     <div>
       <div className={bodyStyle.passengerInfo}>
         <span>
-          <span>Nome/Name</span>
+          <span>ΟΝΟΜΑ/Name</span>
           <span>
             {user.lastName}, {user.firstName}
           </span>
@@ -175,7 +175,7 @@ const BoardingPassRightSide: FunctionComponent<BoardingPassProps> = ({
   return (
     <div className={bodyStyle.sideContent}>
       <div className={bodyStyle.passengerInfoSideBar}>
-        <div>nome/name</div>
+        <div>ΟΝΟΜΑ/name</div>
         <div>
           {user.lastName}, {user.firstName}
         </div>
@@ -192,7 +192,7 @@ const BoardingPassRightSide: FunctionComponent<BoardingPassProps> = ({
       </div>
       <div className={bodyStyle.dateInfoSidebar}>
         <div>
-          <div>Data/Date</div>
+          <div>ΗΜΕΡΟΜΗΝΙΑ/Date</div>
           <div>{formatDate(eventStartDate)}</div>
         </div>
         <div>
@@ -204,11 +204,11 @@ const BoardingPassRightSide: FunctionComponent<BoardingPassProps> = ({
       </div>
       <div className={bodyStyle.seatInfo}>
         <div>
-          <div>Grupo/Group</div>
+          <div>ΓΚΡΟΥΠ/Group</div>
           <div>G1</div>
         </div>
         <div>
-          <div>Assento/Seat</div>
+          <div>ΘΕΣΗ/Seat</div>
           <div className="text-right">1A</div>
         </div>
       </div>
